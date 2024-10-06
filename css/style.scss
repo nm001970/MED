@@ -1,0 +1,70 @@
+.client_section {
+    .heading_container {
+      align-items: center;
+      text-align: center;
+    }
+  
+    .box {
+      margin: 15px;
+      box-shadow: 0 0 10px 0 rgba($color: #000000, $alpha: .2);
+      padding: 25px;
+  
+      .client_id {
+        display: flex;
+  
+        .img-box {
+          width: 125px;
+          min-width: 125px;
+          margin-right: 15px;
+  
+          img {
+            width: 100%;
+            border-radius: 100%;
+          }
+        }
+  
+        .client_detail {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          flex: 1;
+          padding-right: 25px;
+  
+          .client_info {
+            h6 {
+              margin-bottom: 0;
+            }
+  
+            i {
+              color: #fbaf5d;
+            }
+          }
+        }
+      }
+  
+      .client_text {
+        margin-top: 20px;
+      }
+    }
+  
+  
+    .owl-carousel {
+      .owl-nav {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+  
+        button {
+          width: 50px;
+          height: 50px;
+          background-color: $primary1;
+          outline: none;
+          margin: 0 20px;
+          color: $white;
+        }
+  
+      }
+    }
+  
+  }
+  
